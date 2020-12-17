@@ -1,0 +1,17 @@
+{
+  "name": "ws-state-monorepo",
+  "private": true,
+  "scripts": {
+    "start": "lerna run start --parallel",
+    "start:client": "yarn --cwd packages/client start",
+    "start:server": "yarn --cwd packages/server start",
+    "build": "yarn clean && lerna run build --stream",
+    "build:client": "yarn --cwd packages/client build",
+    "build:server": "yarn --cwd packages/server build",
+    "clean": "lerna exec rimraf lib"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "rimraf": "^3.0.2"
+  }
+}
