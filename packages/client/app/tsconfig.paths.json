@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@ws-state/client": ["../src"]
+      "ws-state-client": ["../src"]
     }
   }
 }

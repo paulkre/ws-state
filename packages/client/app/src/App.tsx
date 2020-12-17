@@ -11,7 +11,7 @@ import {
   ChannelProvider,
   useWebState,
   useChannelInfoState,
-} from "@ws-state/client";
+} from "ws-state-client";
 
 const NewChannelButton: React.FC = () => {
   const [name, setName] = React.useState("");
