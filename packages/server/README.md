@@ -1,4 +1,4 @@
-# @ws-state/server
+# ws-state-server
 
 The server component for ws-state.
 
@@ -6,7 +6,7 @@ The server component for ws-state.
 
 ```typescript
 import { createServer } from "http";
-import { createWebSocketStateServer } from "@ws-state/server";
+import { createWebSocketStateServer } from "ws-state-server";
 
 const server = createServer();
 server.listen(3000);
