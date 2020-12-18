@@ -1,7 +1,7 @@
 {
   "name": "ws-state-client",
   "description": "Client components for ws-state",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": "https://github.com/paulkre/ws-state",
   "homepage": "https://github.com/paulkre/ws-state/tree/main/packages/client#readme",
@@ -10,7 +10,6 @@
     "start": "yarn --cwd app start",
     "build": "tsc"
   },
-  "peerDependencies": {},
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

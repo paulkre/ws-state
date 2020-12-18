@@ -1,7 +1,7 @@
 {
   "name": "ws-state-server",
   "description": "Server component for ws-state",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "repository": "https://github.com/paulkre/ws-state",
